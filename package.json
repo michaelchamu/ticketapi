@@ -1,24 +1,26 @@
 {
-    "name": "ticketapi",
-    "version": "1.0.0",
-    "description": "RestFUL API to manage issue tracking for mid-large scale organisations. Can be used for Software issue tracking or any other issue tracking and fault resolution communication",
-    "main": "server.js",
-    "scripts": {
-        "test": ""
-    },
-    "keywords": [
-        "issue",
-        "tracking",
-        "ticketing",
-        "RESTful",
-        "API"
-    ],
-    "author": "Michael Chamunorwa",
-    "license": "ISC",
-    "devDependencies": {
-        "nodemon": "^1.11.0"
-    },
-    "dependencies": {
-        "express": "^4.15.3"
-    }
+  "name": "ticketapi",
+  "version": "1.0.0",
+  "description": "RestFUL API to manage issue tracking for mid-large scale organisations. Can be used for Software issue tracking or any other issue tracking and fault resolution communication",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "issue",
+    "tracking",
+    "ticketing",
+    "RESTful",
+    "API"
+  ],
+  "author": "Michael Chamunorwa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "mongoose": "^4.8.5"
+  }
 }
