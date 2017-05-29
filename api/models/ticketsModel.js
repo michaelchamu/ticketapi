@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var moment = require('moment');
 var Schema = mongoose.Schema;
 
-var ticketSchema = new Schema({
+var TicketSchema = new Schema({
     title: {
         type: String,
         Required: 'Please provide title for issue to be resolved'
@@ -14,7 +14,7 @@ var ticketSchema = new Schema({
     },
     date_created: {
         type: Date,
-        default: moment.now()
+        default: moment()
     },
     status: {
         type: String,
@@ -23,4 +23,4 @@ var ticketSchema = new Schema({
     }
 });
 
-modules.exports = mongoose.model('Tickets', TicketSchema);
+module.exports = mongoose.model('Tickets', TicketSchema);

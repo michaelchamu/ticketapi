@@ -13,13 +13,20 @@
     "RESTful",
     "API"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelchamu/ticketapi.git"
+  },
   "author": "Michael Chamunorwa",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
     "moment": "^2.18.1",
     "mongoose": "^4.8.5"
   }
